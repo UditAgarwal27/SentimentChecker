@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Marck+Script&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url("background.jpg");
+
+	font-family: 'Dancing Script', cursive;
+}
+.details{
+	height:auto;
+	text-align: center;
+}
+.details h2{
+	margin-top:20px;
+	font-size: 40px;
+	color: white;
+} 
+form{
+	margin-top: 10px;
+	width:90%;
+	margin-left: 5%;
+}
+form textarea{
+	margin-top: 20px;
+	font-size: 25px;
+	font-family: 'Marck Script', cursive;
+	letter-spacing: 3px;
+	width:100%;
+	color: white;
+		border: none;
+	background: rgb(255, 255, 255, 0.2)
+
+}
+form input[type="submit"]{
+	width:30%;
+	margin-left:35%;
+	margin-top: 20px;
+	height: auto;
+	font-size:25px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.3s;
+	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Dancing Script', cursive;
+	letter-spacing: 10px;
+}
+form input[type="submit"]:hover{
+	font-size:30px;
+	background-color: #89ab00;
+}
